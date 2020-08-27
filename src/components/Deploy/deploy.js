@@ -7,8 +7,7 @@ export default class dataset extends Component {
         return (
             <div>
                 <Sidebar/>
-
-                <div className="deploy-main">
+      <div className="deploy-main">
       <div className="deploy-div">
         <h1>UK Newspaper Headlines : Model</h1>
       </div>

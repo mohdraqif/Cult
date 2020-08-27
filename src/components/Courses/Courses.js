@@ -7,12 +7,16 @@ import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Course from '../Course/Course'
 import Sidebar from '../Sidebar/sidebar'
-import './course.css'
+import './courses.css'
 
 const useStyles = makeStyles((theme) => ({
   root: {
     width: '70%',
-    margin: '100px 100px 50px 250px',
+    margin: '100px 100px 50px 200px',
+  },
+  image: {
+    width: '100%',
+    height: '300px',
   },
   heading: {
     fontSize: theme.typography.pxToRem(15),
@@ -94,7 +98,7 @@ export default function ControlledAccordions() {
           <Course/>
         </AccordionDetails>
       </Accordion>
-      <img src={require('../../assets/3.png')} width="200px" height="300px" />
+        <img className={classes.image} src={require('../../assets/3.png')} />
     </div>
   );
 }

@@ -1,18 +1,22 @@
 .box{
-    width: 70%;
+    width: 85%;
     height: 80px;
     box-shadow: 4px 4px 12px 0px rgba(148, 148, 148, 0.685);
     border-radius: .4rem;
-    margin-right:4rem ;
-    font-size: 25px;
+    margin-right:2rem;
+    margin-top: 10px;
+    font-size: 22px;
     padding:20px;
     color:gray;
     text-align: left;
+    /* background-color: red; */
 }
 
 .main-box{
-    margin-left: 250px;
-    margin-top:200px;
+    margin-left: 70px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    /* background-color: red; */
 }
 
 .box-content{

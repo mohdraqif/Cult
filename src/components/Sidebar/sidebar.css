@@ -9,9 +9,9 @@
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
     margin-left: 0px;
-    border-right:  2px solid black;
-    border-radius: 0.4rem;
-    
+    /* border-right:  2px solid black;
+    border-radius: 0.4rem; */
+    box-shadow: 8px 0px 16px -9px rgba(0,0,0,0.75);
   }
   
   /* The navigation menu links */

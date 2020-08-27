@@ -2,34 +2,35 @@
     /* background-color: red; */
     width: 100%;
     padding: 0 20px;
-    margin: 0px 10px 5px 28px;
+    margin-left: -130px;
     border-radius: 8px;
     font-family: serif;
     top: 0;
     left:0;
+    margin-bottom: 100px;
   }
   
   .projects-img h1{
     text-align: center;
     color: #666666e0;
-    margin-left: 230px;
+    margin-left: 120px;
+    margin-top: -20px;
   }
   
   .projects-img{
-    width: 80rem;
+    width: 100rem;
     display: inline-flex;
-    /* background-color: red; */
-   
+    /* background-color: brown; */
+    margin-left: 200px;
   }
   .projects-img img{
       height: 200px;
       width: 300px;
-      margin-left:150px;
- 
+      margin-left:10px;
   }
   .projects-img .buttons{
     float: right;
-    margin: 100px 10px 10px 250px;
+    margin: 100px 10px 10px 150px;
   }
   
   .buttons button {
@@ -54,7 +55,7 @@
   .msg .text {
     background-color: #eee;
     margin-top:2em;
-    margin-right: 20px;
+    margin-right: 10px;
     padding: 5px 35px;
     height: 50px;
     border-radius: 5px;
@@ -93,8 +94,8 @@
     font-size: 16px;    
   }
   .projectlist{
-      width: 70%;
-      margin-left: 250px;
+      width: 90%;
+      margin-left: 200px;
       text-align: left;
   }
   
