@@ -1,0 +1,21 @@
+.box{
+    width: 70%;
+    height: 80px;
+    box-shadow: 4px 4px 12px 0px rgba(148, 148, 148, 0.685);
+    border-radius: .4rem;
+    margin-right:4rem ;
+    font-size: 25px;
+    padding:20px;
+    color:gray;
+    text-align: left;
+}
+
+.main-box{
+    margin-left: 250px;
+    margin-top:200px;
+}
+
+.box-content{
+    display: flex;
+    margin-top:3rem;
+}

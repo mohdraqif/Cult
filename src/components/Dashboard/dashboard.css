@@ -1,0 +1,33 @@
+.body{
+    margin:0;
+    padding:0
+}
+
+.div{
+    /* background-color: blue; */
+    margin-left: -280px;
+}
+
+.welcome{
+    /* background-color: green; */
+    padding-left: 320px;
+}
+
+.dash img{
+    height: 500px;
+    width: 800px;
+    /* margin-right: 600px; */
+}
+
+.dash{
+    display: flex;
+    flex-flow: column;
+    margin-left:400px;
+
+}
+.dash button{
+    width: 200px;
+    margin-left: 320px;
+    /* margin-top :0; */
+    margin-bottom: 100px;
+}

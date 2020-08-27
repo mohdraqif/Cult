@@ -1,0 +1,100 @@
+.projects-div{
+    /* background-color: red; */
+    width: 100%;
+    padding: 0 20px;
+    margin: 0px 10px 5px 28px;
+    border-radius: 8px;
+    font-family: serif;
+    top: 0;
+    left:0;
+  }
+  
+  .projects-img h1{
+    text-align: center;
+    color: #666666e0;
+    margin-left: 230px;
+  }
+  
+  .projects-img{
+    width: 80rem;
+    display: inline-flex;
+    /* background-color: red; */
+   
+  }
+  .projects-img img{
+      height: 200px;
+      width: 300px;
+      margin-left:150px;
+ 
+  }
+  .projects-img .buttons{
+    float: right;
+    margin: 100px 10px 10px 250px;
+  }
+  
+  .buttons button {
+    border-radius: 50%;
+    border: none;
+    margin: 0 10px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(23, 152, 211);
+    color: white;
+  }
+  
+  .msg .end-buttons button{
+    background-color: red;
+  }
+  .project h2{
+    color: gray ;
+    font-weight: 700; 
+
+  }
+  
+  .msg .text {
+    background-color: #eee;
+    margin-top:2em;
+    margin-right: 20px;
+    padding: 5px 35px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    color:gray;
+    font-weight: 600;
+  }
+  
+  .project {
+    /* background-color: blue; */
+    height: 150px;
+    padding: 0 0 0 30px;
+    margin: 0px 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 12px 0px rgba(148, 148, 148, 0.685);
+    background-color: #fff;
+  }
+  
+  .project .msg {
+    display: inline-flex;
+    height: 40px;
+    margin-top: -20px;
+  }
+
+
+  .end-buttons button{ 
+    background-color: rgb(23, 152, 211); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;    
+  }
+  .projectlist{
+      width: 70%;
+      margin-left: 250px;
+      text-align: left;
+  }
+  

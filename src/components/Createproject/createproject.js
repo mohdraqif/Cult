@@ -1,0 +1,61 @@
+import React, { Component } from 'react'
+import './createproject.css'
+import Sidebar from './../Sidebar/sidebar'
+
+import Number from './../../assets/Number.svg'
+import Sound from './../../assets/sound.png'
+import Text from './../../assets/Text.png'
+import Images from './../../assets/images.png'
+import image from './../../assets/addproimg.png'
+
+export default class createproject extends Component {
+    render() {
+        return (
+            <div>
+                <Sidebar/>
+                <div className="addproject">
+                    <h1>Add Projects</h1>
+                    <div className="form">
+                        <h2>Project Name:</h2>
+                        <input 
+                        placeholder="Project Name"
+                        type="text"
+                        />
+                        <h2>Description :</h2>
+                        <input 
+                        placeholder="Describe your Project Here"
+                        type="text"
+                        />
+                        <h2>Recognising as:</h2>
+                        <div className="images">
+                            <img src={Text}/>
+                            <img src={Images}/>
+                            <img src={Sound}/>
+                            <img src={Number}/>
+                        </div>     
+                        <button
+                    style={{  backgroundColor:"#fff", /* Green */
+                    border: "none",
+                        color: "gray",
+                        padding: "15px 32px",
+                        textAlign: "center",
+                        textDecoration: "none",
+                        display: "inline-block",
+                        fontSize: "25px",
+                        fontWeight:"400px",
+                      marginTop:"0.3em",
+                    borderRadius:"0.3rem",
+                    border:"2px solid gray",
+                    boxShadow: "4px 4px 12px 0px rgba(148, 148, 148, 0.685)"}}
+                    >Create Project</button>                        
+                    </div> 
+                   
+                       
+                </div>
+                <div className="wall"> 
+                    <img src={image} />
+                    </div>
+            </div>
+        )
+    }
+}

@@ -1,0 +1,57 @@
+
+.wall img{
+    width:800px;
+    height: 500px;
+    margin-left: 700px;
+    /* background-color: red;    */
+}
+.addproject{
+    margin-right: 400px;
+    
+}
+.addproject h1{
+    font-weight: 400;
+    color:gray;
+}
+.form{
+    /* background-color: red; */
+    margin-left: 150px;
+    text-align: left;
+    padding-left: 50px;
+    /* background-color: green; */
+}
+
+.form h2{
+    font-weight: 400;
+    font-size:35px;
+    margin:40px 0 10px 10px;
+    color:gray;
+
+}
+.form input{
+    width: 45%;
+    height: 40px;
+    box-shadow: 4px 4px 12px 0px rgba(148, 148, 148, 0.685);
+    border:2px solid gray;
+    border-radius: .4rem;
+    font-size: 20px;
+    padding: 20px;
+
+}
+
+.images{
+    /* background-color: red; */
+    padding: 20px;
+    height: 200px;
+}
+
+.images img{
+    height: 150px;
+    width: 150px;
+    padding: 40px;
+    background-color:rgb(212, 209, 209) ;
+    margin: 5px 20px;
+    border-radius: 6rem;
+    box-shadow: 4px 4px 12px 0px rgba(148, 148, 148, 0.685);
+}
+
