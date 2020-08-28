@@ -21,25 +21,23 @@ import Settings from './components/Settings/settings'
 import CopyProject from './components/CopyProject/copyproject'
 import Footer from './components/Footer/Footer'
 import 'mdbreact/dist/css/mdb.css'
-
+import OpenButton from './components/ToggleButton/OpenButton/OpenButton'
+import CloseButton from './components/ToggleButton/CloseButton/CloseButton'
 
 
 class App extends React.Component {
-  constructor(){
-    super();
-    
-
+  state = {
+    open: false,
+    close: true
   }
 
- 
-  
-   
   render(){
     return (
       <React.Fragment>
         <BrowserRouter>
           <div className="app">
-            
+            <OpenButton show={this.state.open} />
+            <CloseButton show={this.state.close} />
             <div className="home-main">
               <Switch>
               <Route exact path="/" component={Home}></Route>

@@ -1,0 +1,17 @@
+.close-button{
+  height: 40px;
+  width: 40px;
+  /* background-color: blue; */
+  margin-left: 19.5rem;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.close-button img{
+  height: 50px;
+  width: 50px;
+}
+
+.close-button.hide{
+  opacity: 0;
+}

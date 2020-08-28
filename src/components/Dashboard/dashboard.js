@@ -1,5 +1,4 @@
 import React from 'react';
-import { Redirect} from 'react-router-dom';
 import Home from './../../assets/6.png'
 import {
 
@@ -27,13 +26,13 @@ class ParallaxIntro extends React.Component {
   render() {
     return (
       <div className="div">
-        <Sidebar/>
+        {/* <Sidebar/> */}
         <div className="welcome">
           <h3>Welcome to Eureka DashBoard</h3>
           <p>Exciting New things are on the way. Stay Tuned with Eureka.</p>
         </div>
         <div className="dash">
-          <img src={Home} />
+          <img src={Home} alt="" />
           <MDBBtn color="primary"
           onClick={()=>this.handleLogout()}
           style={{
