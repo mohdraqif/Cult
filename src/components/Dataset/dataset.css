@@ -1,5 +1,6 @@
  .dataset-main{
-    margin-left:200px;
+    margin-left:120px;
+    margin-bottom: 80px;
  }
  
  .dataset-main h1{
@@ -21,7 +22,7 @@
 
 
   .add-name-btn{
-    width: 15%;
+    width: 20%;
     height: 50px;
     background-color: rgb(20, 168, 226);
     color: white;
@@ -39,11 +40,14 @@
     display: flex;
     flex-flow: column;
     margin-top:30px;
-    margin-left: 20px;
+    margin-left: -50px;
+    margin-bottom: 100px;
+    /* background-color: red; */
+    width: 900px;
   } 
   
   .dataset-card{
-    width: 400px;
+    width: 300px;
     height: 500px;
     box-shadow: 4px 4px 12px 0px rgba(148, 148, 148, 0.685);
     border-radius: .4rem;
@@ -60,16 +64,17 @@
   
   .container-main{
       display:flex;
-      margin-left:180px;
+      margin-left:100px;
       text-align: center;
       height: 65px;
       
 
   }
   .container-main button{
-    margin-left:130px;
+    margin-left:100px;
     border-radius: 4rem;
     margin-bottom:100px;
+    margin-top: 10px;
     border:1px solid #fff;
     background-color: #fff;
     font-weight: 600;
@@ -89,6 +94,7 @@
     height: 350px;
     overflow: scroll;
     overflow-x: hidden;
+    /* background-color: blue; */
   }
   .data-value{
     height: 45px;
@@ -105,7 +111,7 @@
   }
 
   .data-value p{
-      width: 310px;
+      width: 210px;
       overflow: hidden;
       padding-right: 1rem;
 

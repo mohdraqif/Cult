@@ -1,9 +1,10 @@
 .test-div{
-    width: 60%;
+    width: 100%;
     padding: 20px 20px;
-    margin: 100px 100px 50px 280px;
+    margin: 100px 100px 50px 100px;
     border-radius: 8px;
     font-family: serif;
+    /* background-color: green; */
   }
   
   .test-div h1{
@@ -17,9 +18,8 @@
   }
   
   .test-card {
-    
     transition: 0.3s;
-    width: 100%;
+    width: 800px;
     height: 130px;
     margin: 80px 20px;
     /* background-color: red; */

@@ -33,24 +33,8 @@ export default class createproject extends Component {
                             <img src={Sound}/>
                             <img src={Number}/>
                         </div>     
-                        <button
-                    style={{  backgroundColor:"#fff", /* Green */
-                    border: "none",
-                        color: "gray",
-                        padding: "15px 32px",
-                        textAlign: "center",
-                        textDecoration: "none",
-                        display: "inline-block",
-                        fontSize: "25px",
-                        fontWeight:"400px",
-                      marginTop:"0.3em",
-                    borderRadius:"0.3rem",
-                    border:"2px solid gray",
-                    boxShadow: "4px 4px 12px 0px rgba(148, 148, 148, 0.685)"}}
-                    >Create Project</button>                        
-                    </div> 
-                   
-                       
+                        <button>Create Project</button>                        
+                    </div>     
                 </div>
                 <div className="wall"> 
                     <img src={image} />

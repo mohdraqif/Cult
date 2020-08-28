@@ -52,7 +52,7 @@ export default class dataset extends Component {
           <h1>UK Newspaper Headlines : Dataset</h1>
         </div>
         <div className="add-name">
-            <input type="text" placeholder="Enter new class you want add "
+            <input type="text" placeholder="Enter new class you want to add "
             onChange={(e)=>this.handleChange(e)}
             value={this.state.input}
             />
@@ -97,7 +97,7 @@ export default class dataset extends Component {
         </Row>
         </div>
      
-        <img src={require('../../assets/proDataset.png')} alt="" />
+        <img src={require('../../assets/proDataset.png')} alt="" height="320px" />
     
       </div>
       
